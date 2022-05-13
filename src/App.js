@@ -1,5 +1,17 @@
+// ! COMPONENTS
+import Navbar from './components/Navbar';
+// ! FILES
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 const App = () => {
-  return <h1>salut</h1>;
+  return (
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route />
+      </Routes>
+    </Router>
+  );
 };
 
 export default App;
