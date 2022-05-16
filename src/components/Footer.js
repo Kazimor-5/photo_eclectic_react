@@ -1,3 +1,5 @@
+// ! COMPONENTS
+import BtnUp from './BtnUp';
 // ! FILES
 import React from 'react';
 import '../styles/index.css';
@@ -12,6 +14,7 @@ const Footer = () => {
         <p className='creator'>SOLEDANE</p>
         <p className='email'>photoeclecticsoledane@gmail.com</p>
       </article>
+      <BtnUp />
     </footer>
   );
 };

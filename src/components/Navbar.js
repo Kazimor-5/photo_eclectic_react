@@ -31,7 +31,9 @@ const Navbar = () => {
             return (
               <li key={id} className='nav-btn'>
                 <Link className='nav-anchor' to={anchor}>
-                  <img src={src} alt={name} className='img' />
+                  <div className='nav-img-container'>
+                    <img src={src} alt={name} className='img' />
+                  </div>
                 </Link>
               </li>
             );

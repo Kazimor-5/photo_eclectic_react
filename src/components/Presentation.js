@@ -12,8 +12,10 @@ const Presentation = () => {
 
         return (
           <article key={id} className='presentation-block'>
-            <h4>{title}</h4>
-            <p>{text}</p>
+            <div className='content'>
+              <h4>{title}</h4>
+              <p>{text}</p>
+            </div>
             <div className='presentation-img-container'>
               <img src={src} alt={title} className='img' />
             </div>

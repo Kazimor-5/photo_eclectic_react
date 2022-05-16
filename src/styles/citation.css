@@ -18,3 +18,8 @@
   color: #fff;
   padding: 1rem;
 }
+@media screen and (min-width: 1024px) {
+.section-citation {
+  align-items: flex-start;
+}
+}

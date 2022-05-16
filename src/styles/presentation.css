@@ -14,9 +14,25 @@
   justify-content: space-around;
   background-color: #111;
 }
-.presentation-block > h4,
-.presentation-block > p {
+.content > h4,
+.content > p {
   color: #fff;
   padding: 1rem;
   width: 90%;
+}
+@media screen and (min-width: 768px) {
+  .presentation-block {
+    flex-direction: row;
+  }
+  .presentation-img-container {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .presentation-block {
+    justify-content: space-between;
+  }
+  .presentation-img-container {
+    width: 30%;
+  }
 }
