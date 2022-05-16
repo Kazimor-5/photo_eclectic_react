@@ -1,0 +1,22 @@
+.section-presentation {
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  row-gap: 1rem;
+  width: 90vw;
+}
+.presentation-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #111;
+}
+.presentation-block > h4,
+.presentation-block > p {
+  color: #fff;
+  padding: 1rem;
+  width: 90%;
+}

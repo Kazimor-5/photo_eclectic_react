@@ -17,15 +17,15 @@ html {
   /* ! COLORS */
 
   /* ? PRIMARY  */
-  --primary-100: #fae8d1;
-  --primary-200: #f4d1a4;
-  --primary-300: #efba76;
-  --primary-400: #e9a349;
-  --primary-500: #e48c1b;
-  --primary-600: #b67016;
-  --primary-700: #895410;
-  --primary-800: #5b380b;
-  --primary-900: #2e1c05;
+  --primary-100: #ffffff;
+  --primary-200: #d0dedf;
+  --primary-300: #a1bebf;
+  --primary-400: #719d9e;
+  --primary-500: #427d7e;
+  --primary-600: #135c5e;
+  --primary-700: #0f4a4b;
+  --primary-800: #0b3738;
+  --primary-900: #082526;
 
   /* ? GREY */
   --grey-50: #f9fafb;
@@ -94,7 +94,6 @@ h5 {
 }
 
 h1 {
-  margin-top: 0;
   font-size: 3.052rem;
 }
 

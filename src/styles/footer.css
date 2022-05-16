@@ -1,0 +1,17 @@
+.footer {
+  margin: 0 auto;
+  width: 90vw; 
+  background-color: #111; 
+}
+.informations {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  padding: 1rem;
+}
+.email {
+  font-size: 0.9rem;
+}

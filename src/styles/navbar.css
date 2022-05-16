@@ -3,6 +3,8 @@
   display: flex;
   align-items: center;
   position: sticky;
+  top: 0;
+  left: 0;
   background-color: #fff;
   box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   transition: all 0.3s ease-in-out;
@@ -31,4 +33,18 @@
 }
 .nav-anchor {
   color: #222;
+}
+.open-sidebar-btn,
+.close-sidebar-btn {
+  background: none;
+  border: none;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  padding: 1.5rem;
+  font-size: 1.1rem;
+}
+.show-sidebar {
+  transform: translate(0);
 }
