@@ -18,7 +18,7 @@ const Navbar = () => {
         onClick={() => showSidebar()}
         className={isShowSidebar ? 'close-sidebar-btn' : 'open-sidebar-btn'}
       >
-        <FaBars />
+        <FaBars /> MENU
       </button>
       <ul className={isShowSidebar ? 'show-sidebar nav-links' : 'nav-links'}>
         <button onClick={() => hideSidebar()} className='close-sidebar-btn'>
@@ -33,7 +33,7 @@ const Navbar = () => {
                 <Link className='nav-anchor' to={anchor}>
                   <div className='nav-img-container'>
                     <img src={src} alt={name} className='img' />
-                  </div>
+                  </div>{' '}
                 </Link>
               </li>
             );
