@@ -17,6 +17,11 @@ export const navLinks = [
   },
   {
     id: 4,
+    name: 'contact',
+    anchor: '/contact',
+  },
+  {
+    id: 5,
     name: 'portfolio',
     anchor: '/portfolio',
   },

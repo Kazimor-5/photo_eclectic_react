@@ -214,6 +214,11 @@ ul {
 
 .form-textarea {
   height: 7rem;
+  resize: none;
+}
+
+.form-input:hover, .form-textarea:hover, .form-input:focus, .form-textarea:focus {
+  outline: 1px solid var(--grey-300);
 }
 
 ::placeholder {
@@ -257,5 +262,5 @@ ul {
   width: 7rem;
   height: 0.25rem;
   background: var(--primary-500);
-  margin: 0 auto;
+  margin: 0 auto 1.5rem auto;
 }

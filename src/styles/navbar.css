@@ -34,6 +34,10 @@
 .nav-anchor {
   color: #222;
 }
+.nav-img-container {
+  margin: 0 auto;
+  width: 60%;
+}
 .open-sidebar-btn,
 .close-sidebar-btn {
   background: none;
@@ -55,11 +59,12 @@
 }
 @media screen and (min-width: 1024px) {
   .nav-links {
-    height: unset;
+    position: sticky;
+    height: inherit;
     width: 100%;
     flex-direction: row;
     transform: translateX(0);
-    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    box-shadow: none;
   }
   .nav-btn {
     width: 25%;
@@ -67,7 +72,7 @@
   .nav-img-container {
     width: 60%;
   }
-  .close-sidebar-btn {
+  .close-sidebar-btn, .open-sidebar-btn {
     display: none;
   }
 }
