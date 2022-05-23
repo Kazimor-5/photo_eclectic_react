@@ -23,7 +23,14 @@
   bottom: 0.2%;
   right: 2%;
 }
+.link {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  justify-content: space-around;
+}
 .social-link {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -39,7 +46,7 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
   }
-  .social-link, .contact, .email {
+  .link, .contact, .email {
     grid-column: 1/-1;
   }
 }
@@ -47,7 +54,7 @@
   .informations {
     grid-template-rows: repeat(3, 1fr);
   }
-  .social-link, .contact {
+  .link, .contact {
     grid-column: unset;
   }
   .footer {

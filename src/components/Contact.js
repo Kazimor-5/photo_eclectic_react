@@ -1,7 +1,7 @@
 // ! FILES
 import React from 'react';
 import '../styles/index.css';
-import '../styles/contact.css';
+import '../styles/Contact.css';
 
 const Contact = () => {
   return (
