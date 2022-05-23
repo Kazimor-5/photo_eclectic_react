@@ -30,9 +30,29 @@
 }
 .nav-btn {
   text-transform: capitalize;
+  text-align: center;
 }
 .nav-anchor {
   color: #222;
+  position: relative;
+}
+.nav-anchor::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #719d9e;
+  transition: transform 0.35s ease-in-out;
+}
+.nav-btn .nav-anchor::after {
+  transform-origin: bottom right;
+  transform: scale(0);
+}
+.nav-btn .nav-anchor:hover::after, .nav-anchor:hover::after {
+  transform-origin: bottom left;
+  transform: scale(1);
 }
 .nav-img-container {
   margin: 0 auto;
