@@ -51,48 +51,6 @@ const Citations = () => {
     );
   };
 
-  const slideInBottom = (elem, delay, duration) => {
-    gsap.fromTo(
-      elem,
-      {
-        opacity: 0,
-        y: 50,
-      },
-      {
-        opacity: 1,
-        y: 0,
-        duration: duration || 0.3,
-        delay: delay || 0.4,
-        scrollTrigger: {
-          trigger: elem,
-          start: 'top bottom',
-          end: 'bottom center',
-        },
-      }
-    );
-  };
-
-  const slideInTop = (elem, delay, duration) => {
-    gsap.fromTo(
-      elem,
-      {
-        opacity: 0,
-        y: -50,
-      },
-      {
-        opacity: 1,
-        y: 0,
-        duration: duration || 0.3,
-        delay: delay || 0.4,
-        scrollTrigger: {
-          trigger: elem,
-          start: 'top bottom',
-          end: 'bottom center',
-        },
-      }
-    );
-  };
-
   useEffect(() => {
     slideInLeft('.citation-1');
   }, []);
