@@ -112,6 +112,7 @@ const Presentation = () => {
   useEffect(() => {
     slideInTop('.container-1', 0.5);
   }, []);
+
   useEffect(() => {
     slideInBottom('.container-2', 0.5);
   }, []);
