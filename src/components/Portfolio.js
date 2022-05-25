@@ -3,7 +3,7 @@ import React from 'react';
 import '../styles/Portfolio.css';
 
 const Portfolio = () => {
-  return <div>Portfolio</div>;
+  return <section className='section-portfolio'>Portfolio</section>;
 };
 
 export default Portfolio;
