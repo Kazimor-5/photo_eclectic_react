@@ -1,0 +1,29 @@
+.abstrait-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(8, 1fr);
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  gap: 1rem;
+}
+.cell, .img {
+  border-radius: 0.5rem;
+}
+@media screen and (min-width: 768px) {
+  .abstrait-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+}
+@media screen and (min-width: 1024px) {
+  .abstrait-container {
+    width: 80%;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .cell-1 {
+    grid-column: 1/4;
+    grid-row: 1/4;
+  }
+}
+
